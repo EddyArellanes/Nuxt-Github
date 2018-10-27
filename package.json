@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nuxt --port 8000"
+    "dev": "nuxt --port 8000",
+    "deploy": "nuxt generate"
   },
   "keywords": [],
   "author": "",
@@ -15,3 +16,4 @@
     "nuxt": "^2.2.0"
   }
 }
+
