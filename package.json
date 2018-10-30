@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nuxt --port 8000",
-    "deploy": "nuxt generate"
+    "deploy": "nuxt generate",
+    "save": "git pull origin master && git add -A && git commit -m 'Updated' && git push origin master"
   },
   "keywords": [],
   "author": "",
