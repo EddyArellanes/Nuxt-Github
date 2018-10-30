@@ -120,11 +120,17 @@
   </div>
 </template>
 <script>
+if (process.client) {
+  require('materialize-css')  
+  console.log("Initializing Materialize-css")
+  M.Collapsible.init(document.querySelectorAll('.collapsible') , {})
+  
+}
 
 export default {
   name: 'Skills',
   updated(){
-    M.Collapsible.init( document.querySelector('.collapsible'), {accordion:true})
+    
   },
   methods: {
     

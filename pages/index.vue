@@ -13,6 +13,7 @@
     </div>
     <About />
     <Skills />
+    <Briefcase />
   </div>
   
 </template>
@@ -23,17 +24,14 @@ import env from '../config/env'
 //Components Registry
 import About from '../components/About'
 import Skills from '../components/Skills'
-
-
-  
-
-
+import Briefcase from '../components/Briefcase'
 
 export default {
   name: 'IndexPage',
   components: {
     About,
-    Skills
+    Skills,
+    Briefcase
   },
   data(){
     return {
@@ -57,8 +55,7 @@ export default {
   
 }
 </script>
-<style scoped>
-
+<style scoped>  
 </style>
 
 
