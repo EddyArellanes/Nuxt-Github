@@ -12,6 +12,7 @@
       </div>
     </div>
     <About />
+    <Skills />
   </div>
   
 </template>
@@ -21,10 +22,18 @@ import env from '../config/env'
 
 //Components Registry
 import About from '../components/About'
+import Skills from '../components/Skills'
+
+
+  
+
+
+
 export default {
   name: 'IndexPage',
   components: {
-    About
+    About,
+    Skills
   },
   data(){
     return {

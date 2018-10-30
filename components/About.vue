@@ -4,7 +4,7 @@
       <h3 class="header subsubtitle">Acerca de Mí</h3>
       <div class="card horizontal">
         <div class="card-image">
-          <img src="images/profile.jpg" height="400" class="hide-on-small-only" alt="profile">
+          <img src="../assets/images/profile.jpg" height="400" class="hide-on-small-only" alt="profile">
         </div>
         <div class="card-stacked">
           <div class="card-content">
@@ -22,7 +22,7 @@
       <h3 class="header subsubtitle">Intereses</h3>
       <div class="card">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator hide-on-small-only" src="images/topics.jpg" height="290" alt="topics">
+          <img class="activator hide-on-small-only" src="../assets/images/topics.jpg" height="290" alt="topics">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Sobre mi Carrera<i class="material-icons right">more_vert</i></span>
