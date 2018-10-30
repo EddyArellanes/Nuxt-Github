@@ -21,8 +21,8 @@ export default {
   },
   css:[
     'materialize-css/dist/css/materialize.min.css',
-    'material-icons/iconfont/material-icons.css'
-
+    'material-icons/iconfont/material-icons.css',
+    '~/assets/css/style.css',    
   ],
   plugins: [
     { src: 'materialize-css', ssr: false}
