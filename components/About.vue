@@ -1,7 +1,6 @@
 <template>
   <div class="row" id="AboutMe">
-    <div class="col s12 m6">
-      <h3 class="header subsubtitle">Acerca de Mí</h3>
+    <div class="col s12 m6 l7">      
       <div class="card horizontal">
         <div class="card-image">
           <img src="../assets/images/profile.jpg" height="400" class="hide-on-small-only" alt="profile">
@@ -18,8 +17,7 @@
       </div>
     </div>
 
-    <div class="col s12 m6">
-      <h3 class="header subsubtitle">Intereses</h3>
+    <div class="col s12 m4 l5">      
       <div class="card">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator hide-on-small-only" src="../assets/images/topics.jpg" height="290" alt="topics">

@@ -1,5 +1,5 @@
 <template>  
-  <div>
+  <div class="parent">
     <Header />  
     <About />
     <Skills />

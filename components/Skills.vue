@@ -128,13 +128,7 @@ if (process.client) {
 }
 
 export default {
-  name: 'Skills',
-  updated(){
-    
-  },
-  methods: {
-    
-  }
+  name: 'Skills',   
 }
 </script>
 

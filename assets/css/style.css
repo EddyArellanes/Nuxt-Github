@@ -1,5 +1,17 @@
+body{
+    background-color: #f8f8f9!important;
+}
 .header-background{
   background-image: url('~assets/images/background.jpeg');
   background-size: cover;
   padding: 3%;
+}
+.parent{
+  transition: all 0.3s ease-in;
+}
+.page-enter-active, .page-leave-active{
+  transition: opacity .3s
+}
+.page-enter, .page-leave-active{
+  opacity: 0.5;
 }
