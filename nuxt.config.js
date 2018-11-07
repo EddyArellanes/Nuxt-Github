@@ -11,6 +11,7 @@ export default {
       { hid: 'title', name: 'title', content: 'Bienvenido - Eddy Arellanes Bastida' }
 
     ],
+    title: 'Home - Eddy Arellanes Bastida',
     script: [
       //{ src: "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" }
     ],    
@@ -28,7 +29,12 @@ export default {
   plugins: [
     { src: 'materialize-css', ssr: false}
   ],
+
   build: {
-    
-  }
+    analyze: false,
+    // or
+    //analyze: {
+    //  analyzerMode: 'static'
+    //}
+  },  
 }

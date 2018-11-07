@@ -45,8 +45,7 @@
               <span class="card-title">Trabajando</span>
             </div>
             <div class="card-content">
-              <p>Mejorando procesos con Jest</p>
-              <p>Mejorando procesos con Logger</p>
+              
 
             </div>
             <div class="card-action"></div>
@@ -70,6 +69,17 @@ export default {
     Header,    
     Footer
   },
+   head () {
+    return {
+      meta: [
+    
+        { hid: 'description', name: 'description', content: 'Más información tanto personal como profesional - Eddy Arellanes Bastida' },     
+        { hid: 'keywords', name: 'keywords', content: 'Eddy,Arellanes,Bastida,Carrera,Informacion,Programador' },      
+        { hid: 'title', name: 'title', content: 'Acerca de mí - Eddy Arellanes Bastida' }
+      ],
+      title: 'Acerca de mí - Eddy Arellanes Bastida'
+    }
+  },
   data(){
     return {
       counter: 0,
@@ -89,6 +99,7 @@ export default {
 <style scoped>  
 h1{
   font-size: 24px!important;
+  margin-top: 0;
 }
 .height-150{
   height: 180px!important;
